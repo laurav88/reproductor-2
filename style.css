@@ -1,5 +1,5 @@
 *{
-    color: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
     font-size: 1.1rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 body{    
-    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQgNDQ0HBwcHDQ8IDQcNFREWFhURExUYHSggGBolGxMVITEiMSkrOi4uFx8zODMsNygtLisBCgoKDQ0ODg8NDzcZFRktKy0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALsBDgMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAABAgMABAf/xAAfEAEBAQEBAQACAwEAAAAAAAAAAQIREgMhUTFhkRP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APGeCzAwwBgNWg1oADGGQAGDIPAZhbgAxuNwCcbh+DwE/IyH8twC8Cn4FgFbhuBwAYWApT8DgFCnKBQMFAoWGCgEatWgHZhBmYQYYAyAZowwGGQZBgBw3BhpAJxuKeR8gnMj5VmR8AjxuLeC+QSsbityPgHPxrFbgtyCfAsU4FgJsIWAFCmLQKFEKABRoAAUW4B2ZgFmYBkNAgwBGQIaQDSDIMh8wAmRkPMjIASHmBkVxAJMnnzVmR5+QS8F183T5/YayDk/5hcum5T1kEPJNRWwtBHUJYtYS5BLgKWFsBPgU1LQKA0KAUo0ALa3RsDgKM0YBHgD0BhoWGAZD5hYeQDyHyXKkA0gzIxSZAM5Vy0h85A0GQ+c/hTPzBOYDWHTwPP7By3KW8uzWUt5Bx6yncurWU9ZBzWFsVsJQQpNLaiWoCdCw9LQJS01LQLQGsAcAbQAwwBgCIDANB4EMAxSJ5UgHytlLC2IB5Fc5LmK4gDnKmMhmKZnQUwrJ0mcrYgNMjqDc9awErlL6Rewm8A4/pEdyun6ROzoOSwti+spWAhqJ6i+0dAjoth9QtAhael0BGZqBaXpqXgGEBA0NCQ8A0GBDQBzFIWHgHytlHK2QXyplLNWyCuT5JhXP8gtiKzJMK8FGZDQ5DcAtL5a3hPfQc/2n+our6WIbsEc+ktRSpaoJbS0rtLUAlidihaBCU3QoJ0tPooFrDS0DRiiBjxOGBQYSGyC0Mnk0BXKsRxVc0Fs1SVGVTNB040rlz4dGKDr+VU1pzY0eaA/prpO6Jqij9to+2+mk5RDa0hu1S1P6AjrRLVNRKgTVStNtOg1S3TWk0BQo2ktBqSmpKAlrBQA0KMAx4SU8AYeEhpQUyaJynlA+Vs1HJ5QXlUwhmqY0DpzVs6csquKDpzo/f7RzfwbIK+ib0Ea0E90p7C9BiaPansE9JaitR1QT2lVNJaoE0XQ6JQLS02iAFLTUtAKFGhQBmHgDDQsNANDQsGUDw8SlPKCsppU800oKxXCWarmgvlTNRmjTQLz6K525ppSbBbVJ6Tug9ArdEtLdE6CvSbpfRdaBtVDdPvaNsAuqlqm1SaAlpbRpLQa0o9LQClohQCgNAGMTpugJoToygcYSUZQPKeVM0oKQZSSmgK5quahKeUHRNGmkJo0oOjOj+3PNDKC/puo+m9ApdBaS7Ldge0mtEui2ga1PVHqeqDXRLWtL0ApaNL0Apaa0tAAta0LQBmYAEowBGAMoDDQsGAcYXo9A8ppU5RBSU0qcHoKymlRlNNAr7NNo9D0DpmgukZsfQKXYXSXW6B7QuiegtA10W0toANpetQ6AUGC0AoNaABQGgDMzAQ0KIGZowDDFgwBhoWCBoaUkGAfolEB6PSjAN1ulYDDKWMBrQtC0AHoWtSgbodCh0BtKwAwUQoFodEKAVmYGZgoP//Z);
+    background-color: rgb(88, 88, 143);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@ body{
 .bttn{
     padding: 15px 120px;
     border-radius: 40px;
-    background-color: rgb(77, 75, 109);
+    background-color: rgb(118, 112, 197);
     transition: all .3s ease-in;
     font-weight: bold;
 }
@@ -78,7 +78,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 10%;
     margin-top: 20px;
     background-color: #00011390;
     border-radius: 40px;
