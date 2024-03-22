@@ -17,7 +17,8 @@ body{
     background-size: cover;
     background-position: center;
     height: 100%;
-    overflow: hidden;
+    display: flex;
+    height: 100vh;
 }
 .bttn{
     padding: 15px 120px;
@@ -38,18 +39,23 @@ body{
     justify-content: space-between;
     padding: 5px;
     height: 100%;
-
+    overflow: hidden;
+    
 }
 .organizador__left{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: rgb(230, 23, 23);
-    padding: 25px;
+    background-color:#0a0b5e90;
+    padding: 10px;
     border-radius: 40px;
-    width: 205%;
+    padding: 25px;
+    width: 25%;
     height: 100%;
     
+}
+.organizador__left img {
+    width: 100%;
 }
 
 .options{
@@ -79,21 +85,13 @@ body{
     padding: 50px;
    
 }
-
-
-
+/* 
 
 
 .organizador__left{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color:#0a0b5e90;
-    padding: 10px;
-    border-radius: 40px;
     width: 100%;
     height: 100%;
     overflow-y: scroll ;
-}
+} */
 
 

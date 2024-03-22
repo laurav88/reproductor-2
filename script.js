@@ -25,6 +25,16 @@ axios.get("https://leonardoapi.onrender.com/songs")
             </div>
         
             `
+
+
+
+div.addEventListener('click', () =>   {
+
+alert('hice click en' + song.title)
+
+document.getElementById("current-song-img").setAttribute('src, song.path.front')
+
+})            
             tracklist.appendChild(div)
 
         })
