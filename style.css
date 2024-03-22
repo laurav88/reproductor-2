@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 .bttn{
@@ -27,8 +27,12 @@ body{
     font-weight: bold;
 }
 
+.bttn:hover{
+    background-color: rgb(190, 190, 190);
+    color: #0f0f0f ;
+}
 
-.contenedor1{
+.container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,7 +44,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 23, 23);
     padding: 25px;
     border-radius: 40px;
     width: 205%;
@@ -48,39 +52,36 @@ body{
     
 }
 
-.contenedor__opciones{
+.options{
     width: 100%;
     height: 100%;
 }
-.caja__opciones{
+.options2{
     background-color: #1c0a6b8d;
     width: 100%;
     padding: 10px;
     border-radius: 40px;
 }
-.opciones{
+.options3{
     display: flex;
     flex-direction: row;
     padding: 10px;
     gap: 5px;
 }
-.caja__library{
+.caja__musica{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 55%;
-    margin-top: 10px;
-    background-color: #0a0b5e90;
+    height: 10%;
+    margin-top: 20px;
+    background-color: #00011390;
     border-radius: 40px;
-    padding: 10px;
+    padding: 50px;
    
 }
 
 
-.Icono-titulo{
-    display: flex;
-    flex-direction: row;
-}
+
 
 
 .organizador__left{
@@ -92,6 +93,7 @@ body{
     border-radius: 40px;
     width: 100%;
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: scroll ;
 }
+
 
